@@ -9,7 +9,7 @@ from django.conf import settings
 from django.template import loader
 from django.http import HttpResponse
 from urllib.parse import quote
-from django.utils.six import BytesIO
+from six import BytesIO
 
 import xhtml2pdf.default
 from xhtml2pdf import pisa
